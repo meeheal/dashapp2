@@ -2,6 +2,9 @@ using Dash, DashHtmlComponents, DashCoreComponents
 
 app = dash()
 
+app.layout = html_div() do
+    html_h1("Hellow, World!")
+end
 
 
 #local
